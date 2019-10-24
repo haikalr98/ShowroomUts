@@ -18,4 +18,14 @@ public class Motor extends AppCompatActivity {
         Intent i = new Intent(Motor.this, SpesifikasiNinja250.class);
         startActivity(i);
     }
+
+    public void Button11(View view) {
+        Intent i = new Intent(Motor.this, SpesifikasiBeatStreet.class);
+        startActivity(i);
+    }
+
+    public void Button12(View view) {
+        Intent i = new Intent(Motor.this, SpesifikasiScoopy.class);
+        startActivity(i);
+    }
 }

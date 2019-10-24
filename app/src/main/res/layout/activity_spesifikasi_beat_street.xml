@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SpesifikasiNinja250">
+    tools:context=".SpesifikasiBeatStreet">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -19,7 +19,7 @@
             android:layout_height="wrap_content"
             android:paddingLeft="25dp"
             android:paddingTop="50dp"
-            android:text="SPESIFIKASI KAWASAKI NINJA 250R"
+            android:text="SPESIFIKASI BEAT STREET 2017"
             android:textColor="@android:color/holo_red_dark"
             android:textSize="24sp" />
 
@@ -45,7 +45,7 @@
             android:layout_marginTop="24dp"
             android:layout_marginEnd="222dp"
             android:layout_marginRight="222dp"
-            android:text="TIPE MESIN : 4-LANGKAH/TAK, PENDINGINAN AIR"
+            android:text="TIPE MESIN : 4-LANGKAH/TAK, SOHC PENDINGINAN UDARA"
             android:textColor="@android:color/black"
             android:textSize="18sp" />
 
@@ -56,7 +56,7 @@
             android:layout_marginStart="24dp"
             android:layout_marginLeft="24dp"
             android:layout_marginTop="24dp"
-            android:text="TRANSMISI : MANUAL"
+            android:text="TRANSMISI : AUTOMATIC"
             android:textColor="@android:color/black"
             android:textSize="18sp" />
 
@@ -76,7 +76,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="24dp"
             android:layout_marginTop="24dp"
-            android:text="KILOMETER : 25.000KM"
+            android:text="KILOMETER : 20.000KM"
             android:textColor="@android:color/black"
             android:textSize="18sp" />
 
@@ -86,7 +86,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="24dp"
             android:layout_marginTop="24dp"
-            android:text="WARNA : HIJAU"
+            android:text="WARNA : HITAM"
             android:textColor="@android:color/black"
             android:textSize="18sp" />
 
@@ -96,19 +96,18 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="24dp"
             android:layout_marginTop="24dp"
-            android:text="HARGA : 45.000.000"
+            android:text="HARGA : 11.000.000"
             android:textColor="@android:color/black"
             android:textSize="18sp" />
 
         <Button
-            android:id="@+id/button13"
+            android:id="@+id/button19"
             android:layout_width="149dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="24dp"
             android:layout_marginTop="24dp"
-            android:onClick="Button13"
+            android:onClick="Button19"
             android:text="KEMBALI" />
-
     </LinearLayout>
 
 

@@ -63,6 +63,7 @@
                 android:layout_width="158dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="100dp"
+                android:onClick="Button9"
                 android:text="SPESIFIKASI" />
 
             <TextView
@@ -82,11 +83,12 @@
                 app:srcCompat="@drawable/motorbeat" />
 
             <Button
-                android:id="@+id/button4"
-                android:layout_width="158dp"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="100dp"
-                android:text="SPESIFIKASI" />
+            android:id="@+id/button11"
+            android:layout_width="158dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:onClick="Button11"
+            android:text="SPESIFIKASI" />
 
             <TextView
                 android:id="@+id/textView90"
@@ -105,10 +107,11 @@
                 app:srcCompat="@drawable/motorscoopy" />
 
             <Button
-                android:id="@+id/button10"
+                android:id="@+id/button12"
                 android:layout_width="158dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="100dp"
+                android:onClick="Button12"
                 android:text="SPESIFIKASI" />
 
 
