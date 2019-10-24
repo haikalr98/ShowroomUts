@@ -12,7 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="48dp"
-        android:text="SHOWROOM GALAXY"
+        android:text="NATALIV SHOWROOM"
         android:textColor="#A01111"
         android:textSize="30sp"
         app:fontFamily="@font/cagliostro"
