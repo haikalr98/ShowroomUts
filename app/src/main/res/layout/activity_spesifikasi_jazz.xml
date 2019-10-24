@@ -6,30 +6,22 @@
     android:layout_height="match_parent"
     tools:context=".spesifikasi_jazz">
 
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:background="@android:color/darker_gray"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent">
 
         <TextView
             android:id="@+id/textView15"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@android:color/darker_gray"
             android:paddingLeft="25dp"
             android:paddingTop="50dp"
-            android:text="SPESIFIKASI HONDA JAZZ 2013 RS "
+            android:text="SPESIFIKASI HONDA JAZZ 2013 RS"
             android:textColor="@android:color/holo_red_dark"
             android:textSize="24sp" />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        tools:background="@android:color/darker_gray">
 
         <TextView
             android:id="@+id/textView11"
@@ -37,7 +29,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="24dp"
             android:layout_marginLeft="50dp"
-            android:layout_marginTop="128dp"
+            android:layout_marginTop="60dp"
             android:layout_marginEnd="222dp"
             android:layout_marginRight="222dp"
             android:text="KONDISI : BEKAS"
@@ -84,7 +76,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="24dp"
             android:layout_marginTop="24dp"
-            android:text="KILOMETER : 40.000KM"
+            android:text="KILOMETER : 50.000KM"
             android:textColor="@android:color/black"
             android:textSize="18sp" />
 
@@ -94,7 +86,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="24dp"
             android:layout_marginTop="24dp"
-            android:text="WARNA : PUTIH/WHITE"
+            android:text="WARNA : SILVER"
             android:textColor="@android:color/black"
             android:textSize="18sp" />
 
@@ -104,17 +96,20 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="24dp"
             android:layout_marginTop="24dp"
-            android:text="HARGA : 160.000.000"
+            android:text="HARGA : 135.000.000"
             android:textColor="@android:color/black"
             android:textSize="18sp" />
 
         <Button
-            android:id="@+id/button6"
-            android:layout_width="178dp"
+            android:id="@+id/button7"
+            android:layout_width="183dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="24dp"
             android:layout_marginTop="24dp"
+            android:onClick="Button7"
             android:text="KEMBALI" />
+
     </LinearLayout>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

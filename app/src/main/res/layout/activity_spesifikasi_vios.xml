@@ -112,6 +112,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="24dp"
             android:layout_marginTop="24dp"
+            android:onClick="Button6"
             android:text="KEMBALI" />
     </LinearLayout>
 
