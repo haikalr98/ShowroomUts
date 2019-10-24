@@ -16,5 +16,16 @@ public class Mobil extends AppCompatActivity {
     public void Button3(View view){
         Intent i = new Intent(Mobil.this, SpesifikasiVios.class);
         startActivity(i);
+
+    }
+
+    public void Button4(View view) {
+        Intent i = new Intent(Mobil.this, spesifikasi_jazz.class);
+        startActivity(i);
+    }
+
+    public void Button10(View view) {
+        Intent i = new Intent(Mobil.this, SpesifikasiMobilio.class);
+        startActivity(i);
     }
 }

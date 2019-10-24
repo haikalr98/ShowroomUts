@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SpesifikasiVios"></activity>
+        <activity android:name=".SpesifikasiMobilio"></activity>
+        <activity android:name=".spesifikasi_jazz" />
+        <activity android:name=".SpesifikasiVios" />
         <activity android:name=".Mobil" />
         <activity android:name=".MainActivity">
             <intent-filter>
